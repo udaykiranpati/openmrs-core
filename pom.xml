@@ -1132,7 +1132,8 @@
 
 		<customArgLineForTesting />
 
-				
+		<sonar.host.url>http://35.244.54.133:9000/</sonar.host.url>
+		<sonar.login>776ca0227ad40c6d4020045c469dd43b4689d360</sonar.login>		
 		<sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
 		<sonar.issuesReport.lightModeOnly>true</sonar.issuesReport.lightModeOnly>
 		<sonar.issuesReport.console.enable>true</sonar.issuesReport.console.enable>
