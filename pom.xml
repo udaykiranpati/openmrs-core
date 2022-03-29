@@ -1035,13 +1035,7 @@
 				</dependency>
 			</dependencies>
 		</profile>
-		<profile>
-			<id>sonar-cloud</id>
-			<properties>
-				<sonar.organization>openmrs</sonar.organization>
-				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-			</properties>
-		</profile>
+		
 	</profiles>
 
 	<reporting>
@@ -1098,7 +1092,9 @@
 		</snapshotRepository>
 	</distributionManagement>
 
-	<properties>
+	
+	
+       <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<javaCompilerVersion>1.8</javaCompilerVersion>
 		<maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
