@@ -37,7 +37,10 @@
 		<name>OpenMRS Inc.</name>
 		<url>https://openmrs.org</url>
 	</organization>
-
+	<properties>
+		<sonar.host.url>http://35.244.54.133:9000/</sonar.host.url>
+		<sonar.login>776ca0227ad40c6d4020045c469dd43b4689d360</sonar.login>
+	</properties>
 	<scm>
 		<connection>scm:git:git@github.com:openmrs/openmrs-core</connection>
 		<developerConnection>scm:git:git@github.com:openmrs/openmrs-core</developerConnection>
